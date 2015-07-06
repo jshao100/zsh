@@ -1,6 +1,10 @@
 run ./install in the fonts folder
 change text in iterm2 to Powerline-patched Menlo
 
-move custom plugin folder to .oh-my-zsh/custom/plugins/
+*install syntax via:*
+cd ~/.oh-my-zsh/custom/plugins
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
 
-move tmux config to .oh-my-zsh/plugins/tmux
+*edit tmux config*
+vim .oh-my-zsh/plugins/tmux/tmux.plugin.config
+(true, false, false, false, etc)
