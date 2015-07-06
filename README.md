@@ -1,10 +1,13 @@
-run ./install in the fonts folder
-change text in iterm2 to Powerline-patched Menlo
+*install zsh via* </br>
+brew install zsh </br>
 
-*install syntax via:*
-cd ~/.oh-my-zsh/custom/plugins
-git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
+*install oh-my-zsh* </br>
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" </br>
 
-*edit tmux config*
-vim .oh-my-zsh/plugins/tmux/tmux.plugin.config
-(true, false, false, false, etc)
+*run in /fonts* </br>
+./install </br>
+change text in iterm2 to Powerline-patched Menlo </br>
+
+*install syntax via:* </br>
+cd ~/.oh-my-zsh/custom/plugins </br>
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git </br>
