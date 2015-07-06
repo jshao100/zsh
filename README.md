@@ -1,5 +1,6 @@
 *install zsh via* </br>
 brew install zsh </br>
+chsh -s /usr/local/bin/zsh </br>
 
 *install oh-my-zsh* </br>
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" </br>
